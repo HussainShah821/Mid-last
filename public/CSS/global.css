@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rosario: Rosario;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-16xl: 35px;
+  --font-size-xl: 20px;
+  --font-size-lgi: 19px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgray: #b1b1b1;
+  --color-gray-100: rgba(0, 0, 0, 0.77);
+}

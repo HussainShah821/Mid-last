@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Admin Page</title>
+  <link rel="stylesheet" href="./public/CSS/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cafe Admin Page</h1>
+  </header>
+  
+  <main>
+    <section class="menu-management">
+      <h2>Menu Management</h2>
+      <form id="menu-form">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" required>
+        <label for="itemPrice">Item Price:</label>
+        <input type="number" id="itemPrice" required>
+        <button type="submit">Add Item</button>
+      </form>
+      <ul id="menu-list">
+        <!-- Menu items will be dynamically populated here -->
+      </ul>
+    </section>
+    
+    <section class="promotions-management">
+      <h2>Special Promotions</h2>
+      <form id="promotion-form">
+        <label for="promotionText">Promotion Text:</label>
+        <input type="text" id="promotionText" required>
+        <button type="submit">Add Promotion</button>
+      </form>
+      <ul id="promotion-list">
+        <!-- Promotions will be dynamically populated here -->
+      </ul>
+    </section>
+  </main>
+  
+  <script src="./public/js/script.js"></script>
+</body>
+</html>
